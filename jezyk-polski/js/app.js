@@ -116,10 +116,11 @@ function quitQuiz() {
   }
 }
 
-// Register service worker for PWA
+// Register service worker for PWA - zawsze aktualna wersja
 if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.addEventListener('controllerchange', () => window.location.reload());
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
+    navigator.serviceWorker.register('sw.js');
   });
 }
 
