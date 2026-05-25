@@ -12,23 +12,12 @@
 </head>
 <body>
   <div id="app">
-    <!-- Ekran startowy -->
-    <div id="screen-start" class="screen active">
-      <div class="container">
-        <div class="logo">🧮</div>
-        <h1>Matematyczny Mistrz</h1>
-        <p class="subtitle">Ogólnopolski Sprawdzian Trzecioklasisty</p>
-        <p class="desc">Sprawdź swoją wiedzę z matematyki! Odpowiadaj na pytania, zdobywaj punkty i ucz się z objaśnieniami.</p>
-        <button class="btn btn-primary btn-large" onclick="showScreen('screen-categories')">Rozpocznij quiz</button>
-      </div>
-    </div>
-
     <!-- Ekran wyboru kategorii -->
-    <div id="screen-categories" class="screen">
+    <div id="screen-categories" class="screen active">
       <div class="container">
         <h2>Wybierz kategorię</h2>
         <div id="categories-list" class="categories-grid"></div>
-        <button class="btn btn-secondary btn-small" onclick="showScreen('screen-start')" style="margin-top:16px">← Powrót</button>
+        <a href="../" class="link-back" style="margin-top:16px">← Strona główna</a>
       </div>
     </div>
 
@@ -65,7 +54,7 @@
         <div id="results-summary" class="results-summary"></div>
         <div id="results-details" class="results-details"></div>
         <button class="btn btn-primary btn-large" onclick="showScreen('screen-categories')">Następny quiz</button>
-        <button class="btn btn-secondary" onclick="showScreen('screen-start')" style="margin-top:12px">← Strona główna</button>
+        <a href="../" class="btn btn-secondary" style="margin-top:12px;text-decoration:none;display:inline-block">← Strona główna</a>
       </div>
     </div>
   </div>

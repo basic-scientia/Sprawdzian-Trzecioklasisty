@@ -72,7 +72,7 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-// Start screen by default
+// Show categories by default
 document.addEventListener('DOMContentLoaded', () => {
-  showScreen('screen-start');
+  showScreen('screen-categories');
 });
