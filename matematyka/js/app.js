@@ -72,8 +72,6 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js');
   });
 }
-  });
-}
 
 // Show categories by default
 document.addEventListener('DOMContentLoaded', () => {
