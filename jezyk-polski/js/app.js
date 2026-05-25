@@ -4,6 +4,8 @@ function showScreen(id) {
 
   if (id === 'screen-categories') {
     renderCategories();
+  } else if (id === 'screen-lektury') {
+    renderLektury();
   }
 }
 
@@ -11,7 +13,6 @@ function renderCategories() {
   const container = document.getElementById('categories-list');
   container.innerHTML = '';
 
-  // Random (all categories) card
   const randomCard = document.createElement('div');
   randomCard.className = 'category-card random';
   const totalQ = CATEGORIES.reduce((sum, c) => sum + c.questions.length, 0);
@@ -34,6 +35,45 @@ function renderCategories() {
     card.addEventListener('click', () => Quiz.start(cat.id));
     container.appendChild(card);
   });
+}
+
+function renderLektury() {
+  const container = document.getElementById('lektury-list');
+  container.innerHTML = '';
+
+  LEKTURY.forEach(lektura => {
+    const card = document.createElement('div');
+    card.className = 'lektury-card';
+    card.innerHTML = `
+      <span class="lc-icon">${lektura.icon}</span>
+      <div class="lc-title">${lektura.title}</div>
+      <div class="lc-author">${lektura.author}</div>
+    `;
+    card.addEventListener('click', () => showLekturaDetail(lektura.id));
+    container.appendChild(card);
+  });
+}
+
+function showLekturaDetail(id) {
+  const lektura = LEKTURY.find(l => l.id === id);
+  if (!lektura) return;
+
+  document.getElementById('lektura-detail-title').textContent = lektura.icon + ' ' + lektura.title;
+
+  const container = document.getElementById('lektura-detail-content');
+  container.innerHTML = `
+    <div class="ld-icon">${lektura.icon}</div>
+    <div class="ld-title">${lektura.title}</div>
+    <div class="ld-author">${lektura.author}</div>
+    ${lektura.sections.map(s => `
+      <div class="ld-section">
+        <div class="ld-section-title">${s.title}</div>
+        <div class="ld-section-text">${s.text}</div>
+      </div>
+    `).join('')}
+  `;
+
+  showScreen('screen-lektura-detail');
 }
 
 function nextQuestion() {

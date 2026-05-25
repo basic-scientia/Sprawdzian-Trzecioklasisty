@@ -16,7 +16,8 @@
       <div class="container">
         <h2>Wybierz kategorię</h2>
         <div id="categories-list" class="categories-grid"></div>
-        <a href="../" class="link-back" style="margin-top:16px">← Strona główna</a>
+        <button class="btn btn-secondary btn-small" onclick="showScreen('screen-lektury')" style="margin-top:16px">📖 Opracowania lektur</button>
+        <a href="../" class="link-back" style="margin-top:8px">← Strona główna</a>
       </div>
     </div>
 
@@ -52,6 +53,28 @@
         <div id="results-details" class="results-details"></div>
         <button class="btn btn-primary btn-large" onclick="showScreen('screen-categories')">Następny quiz</button>
         <a href="../" class="btn btn-secondary" style="margin-top:12px;text-decoration:none;display:inline-block">← Strona główna</a>
+      </div>
+    </div>
+
+    <!-- Ekran opracowań lektur -->
+    <div id="screen-lektury" class="screen">
+      <div class="container">
+        <div class="lektury-header">
+          <button class="btn-quit" onclick="showScreen('screen-categories')" aria-label="Powrót">✕</button>
+          <h2 style="flex:1;margin:0">📖 Opracowania lektur</h2>
+        </div>
+        <div id="lektury-list" class="lektury-list scrollable"></div>
+      </div>
+    </div>
+
+    <!-- Ekran szczegółów lektury -->
+    <div id="screen-lektura-detail" class="screen">
+      <div class="container">
+        <div class="lektury-header">
+          <button class="btn-quit" onclick="showScreen('screen-lektury')" aria-label="Powrót">✕</button>
+          <h2 style="flex:1;margin:0" id="lektura-detail-title">Tytuł</h2>
+        </div>
+        <div id="lektura-detail-content" class="lektura-detail scrollable"></div>
       </div>
     </div>
   </div>

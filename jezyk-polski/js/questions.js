@@ -474,3 +474,226 @@ const CATEGORIES = [
     ]
   }
 ];
+
+const LEKTURY = [
+  {
+    id: 'kubus-puchatek',
+    icon: '🐻',
+    title: 'Kubuś Puchatek',
+    author: 'Alan Alexander Milne',
+    sections: [
+      {
+        title: 'O czym jest ta książka?',
+        text: 'Książka opowiada o przygodach Kubusia Puchatka i jego przyjaciół w Stumilowym Lesie. Puchatek to mały, łakomy miś, który uwielbia miód. Razem z Prosiaczkiem, Królikiem, Kłapouchym, Sową Mądrąlą i Tygryskiem przeżywa wiele zabawnych przygód. Ich najlepszym przyjacielem jest chłopiec o imieniu Krzyś.'
+      },
+      {
+        title: 'Główni bohaterowie',
+        text: '🐻 Kubuś Puchatek - miś o małym rozumku, który uwielbia miód. 🐷 Prosiaczek - mały, nieśmiały prosiaczek. 🐰 Królik - zorganizowany i denerwuje go bałagan. 🐴 Kłapouchy - wiecznie smutny osiołek. 🦉 Sowa Mądrala - uważa się za najmądrzejszą. 🐯 Tygrysek - energiczny tygrys lubiący skakać. 👦 Krzyś - przyjaciel zwierząt.'
+      },
+      {
+        title: 'Najważniejsze przygody',
+        text: 'Kubuś Puchatek utyka w norze Królika po zjedzeniu zbyt dużej ilości miodu. Prosiaczek i Puchatek wyruszają na polowanie na Słonia. Kłapouchy gubi swój ogon, a przyjaciele pomagają go znaleźć. Puchatek wpada na pomysł, żeby zrobić prezent na urodziny Kłapouchego.'
+      },
+      {
+        title: 'Czego uczy ta książka?',
+        text: 'Książka uczy przyjaźni, pomagania innym i tego, że każdy jest inny i wyjątkowy. Pokazuje, że prawdziwi przyjaciele zawsze sobie pomagają, nawet w trudnych sytuacjach.'
+      }
+    ]
+  },
+  {
+    id: 'akademia-pana-kleksa',
+    icon: '🧙',
+    title: 'Akademia Pana Kleksa',
+    author: 'Jan Brzechwa',
+    sections: [
+      {
+        title: 'O czym jest ta książka?',
+        text: 'Akademia Pana Kleksa to niezwykła szkoła, do której trafia Adaś Niezgódka. Pan Kleks uczy chłopców gotowania, kleksografii i przędzenia liter. W szkole wszystko jest magiczne: kaczka Mateusz mówi ludzkim głosem, a szpaki uczą dzieci ortografii. Adaś wraz z kolegami przeżywa niesamowite przygody.'
+      },
+      {
+        title: 'Główni bohaterowie',
+        text: '👨‍🏫 Pan Kleks - czarodziej i nauczyciel z wielką brodą i piegami. 👦 Adaś Niezgódka - główny bohater, chłopiec, który trafia do akademii. 🦆 Kaczka Mateusz - mówiąca kaczka, sekretarz Pana Kleksa. 👦 Alojzy Bąbel - wróg Adasia z sąsiedniej szkoły. 👦 Koledzy z akademii: Filip Golarz, Artur Tramp, Anatol Kolejka.'
+      },
+      {
+        title: 'Magia w akademii',
+        text: 'W akademii dzieją się niesamowite rzeczy: Pan Kleks gotuje przezroczyste dania, bajki same się opowiadają, a kleksy na papierze ożywają. Chłopcy uczą się kleksografii (sztuki tworzenia obrazków z kleksów) i przędzenia liter. Największą tajemnicą jest sen Pana Kleksa, w którym odbywa podróże do różnych krain.'
+      },
+      {
+        title: 'Czego uczy ta książka?',
+        text: 'Książka uczy, że warto być dobrym i pomagać innym. Pokazuje, że nauka może być przyjemna i ciekawa. Uczy też, że nie należy oceniać ludzi po pozorach.'
+      }
+    ]
+  },
+  {
+    id: 'lokomotywa',
+    icon: '🚂',
+    title: 'Lokomotywa i inne wiersze',
+    author: 'Julian Tuwim',
+    sections: [
+      {
+        title: 'Lokomotywa',
+        text: '"Stoi na stacji lokomotywa, ciężka, ogromna i pot z niej spływa" - tak zaczyna się najsłynniejszy wiersz Juliana Tuwima. Opisuje lokomotywę, która ciągnie wagony pełne różnych towarów: bydła, wagonów z końmi, z krowami, wagon pełen bananów, wagon z fortepianem. Wiersz jest bardzo rytmiczny i naśladuje odgłos jadącego pociągu.'
+      },
+      {
+        title: 'Słoń Trąbalski',
+        text: 'Wiersz o słoniu Trąbalskim, który miał ogromną trąbę i bardzo słabą pamięć. Wszystko zapominał: jak się nazywa, gdzie mieszka. Mimo to wszyscy go lubili. Zabawny wiersz o zapominalskim słoniu.'
+      },
+      {
+        title: 'Ptasie radio',
+        text: 'Zabawny wiersz o ptakach, które założyły własne radio. Ćwierkały, gadały, kwiliły, gwizdały. Wszystkie ptaki się zleciały, a w radiu powstał straszny harmider. Szczególnie głośno było, gdy odezwał się "śpiewak" - wróbel.'
+      },
+      {
+        title: 'Rzepka',
+        text: 'Dziadek zasadził rzepkę w ogrodzie. Wyrosła ogromna, ale dziadek nie mógł jej sam wyciągnąć. Zawołał babcię, ale też nie dali rady. Potem wnuczka, Mruczuś, kurka, gąska, bocian, żabka - ciągnęli wszyscy razem i w końcu wyciągnęli. Wiersz o współpracy.'
+      }
+    ]
+  },
+  {
+    id: 'brzechwa',
+    icon: '🦆',
+    title: 'Wiersze Jana Brzechwy',
+    author: 'Jan Brzechwa',
+    sections: [
+      {
+        title: 'Kaczka Dziwaczka',
+        text: 'Wiersz o bardzo dziwnej kaczce, która robiła wszystko na opak. Fryzjerowi kazała się czesać do góry nogami, jadła śniadanie wieczorem, a kolację rano, i nosiła buty na zmianę - jeden na prawą nogę, drugi na lewą. Była bardzo oryginalna.'
+      },
+      {
+        title: 'Na straganie',
+        text: 'Wiersz o warzywach na straganie. Kalafior kłócił się z innymi warzywami, że jest najpiękniejszy. Cebula płakała, pietruszka się gniewała, marchewka chwaliła się urodą. Zabawna rozmowa warzyw, które zachowują się jak ludzie.'
+      },
+      {
+        title: 'Samochwała',
+        text: 'Wiersz o chłopcu, który ciągle się chwalił. Mówił, że jest najmądrzejszy, najsilniejszy i najodważniejszy. Wszystko umiał najlepiej, ale w rzeczywistości wcale tak nie było. Wiersz o tym, że przechwalanie się nie jest dobre.'
+      },
+      {
+        title: 'Leń',
+        text: 'Wiersz o chłopcu, który był bardzo leniwy. "Na tapczanie siedzi leń, nic nie robi cały dzień" - tak zaczyna się ten zabawny wiersz o lenistwie. Leń wymyślał różne wymówki, żeby nic nie robić.'
+      }
+    ]
+  },
+  {
+    id: 'kopciuszek',
+    icon: '👠',
+    title: 'Kopciuszek',
+    author: 'Baśń (Charles Perrault / bracia Grimm)',
+    sections: [
+      {
+        title: 'O czym jest ta baśń?',
+        text: 'Dziewczynka o imieniu Kopciuszek mieszka z macochą i dwiema przyrodnimi siostrami. One są złe i każą jej ciężko pracować. Pewnego dnia na zamku odbywa się wielki bal. Dzięki dobrej wróżce Kopciuszek jedzie na bal w pięknej sukni, ale musi wrócić przed północą. Na balu tańczy z księciem, a uciekając gubi szklany pantofelek.'
+      },
+      {
+        title: 'Najważniejsze wydarzenia',
+        text: '1. Kopciuszek dostaje zaproszenie na bal. 2. Wróżka zmienia dynię w karetę, myszy w konie, a łachmany w piękną suknię. 3. Kopciuszek tańczy z księciem. 4. Ucieka o północy, gubiąc pantofelek. 5. Książę szuka dziewczyny, do której pasuje pantofelek. 6. Pantofelek pasuje na Kopciuszka. 7. Kopciuszek i książę biorą ślub.'
+      },
+      {
+        title: 'Czego uczy ta baśń?',
+        text: 'Baśń uczy, że dobroć i pracowitość zostają nagrodzone, a zło ukarane. Pokazuje, że warto być dobrym dla innych, nawet jeśli samemu ma się trudno.'
+      }
+    ]
+  },
+  {
+    id: 'kapturek',
+    icon: '🔴',
+    title: 'Czerwony Kapturek',
+    author: 'Baśń (Charles Perrault / bracia Grimm)',
+    sections: [
+      {
+        title: 'O czym jest ta baśń?',
+        text: 'Czerwony Kapturek to dziewczynka, która zawsze nosi czerwoną czapeczkę od babci. Pewnego dnia mama prosi ją, żeby zaniosła babci koszyczek z jedzeniem. Babcia mieszka w domku w lesie. Po drodze Czerwony Kapturek spotyka złego wilka. Wilk dowiaduje się, dokąd idzie dziewczynka i biegnie do babci szybciej, połyka babcię i czeka w jej łóżku na Czerwonego Kapturka.'
+      },
+      {
+        title: 'Najważniejsze wydarzenia',
+        text: '1. Czerwony Kapturek idzie do babci przez las. 2. Spotyka wilka i mówi mu, dokąd idzie. 3. Wilk biegnie do babci, połyka ją i kładzie się do łóżka. 4. Czerwony Kapturek przychodzi i dziwi się, że babcia wygląda inaczej. 5. Wilk połyka też Czerwonego Kapturka. 6. Myśliwy przychodzi, rozcina wilkowi brzuch i ratuje babcię i Kapturka. 7. Wkładają wilkowi kamienie do brzucha.'
+      },
+      {
+        title: 'Czego uczy ta baśń?',
+        text: 'Baśń uczy, żeby nie rozmawiać z nieznajomymi i nie ufać obcym. Pokazuje też, że dzieci powinny słuchać rodziców, którzy ostrzegają przed niebezpieczeństwami.'
+      }
+    ]
+  },
+  {
+    id: 'krolewna-sniezka',
+    icon: '🍎',
+    title: 'Królewna Śnieżka',
+    author: 'Baśń (bracia Grimm)',
+    sections: [
+      {
+        title: 'O czym jest ta baśń?',
+        text: 'Królewna Śnieżka ma bardzo piękną urodę. Jej macocha, zła Królowa, jest zazdrosna, ponieważ lustro mówi jej, że to Śnieżka jest najpiękniejsza. Królowa każe zabić Śnieżkę, ale ta ucieka do lasu i znajduje domek siedmiu krasnoludków. Krasnoludki przygarniają ją. Zła Królowa odkrywa, że Śnieżka żyje i podstępem daje jej zatrute jabłko.'
+      },
+      {
+        title: 'Najważniejsze wydarzenia',
+        text: '1. Królowa dowiaduje się, że Śnieżka jest piękniejsza od niej. 2. Myśliwy ma zabić Śnieżkę, ale pozwala jej uciec. 3. Śnieżka znajduje domek krasnoludków. 4. Krasnoludki przygarniają Śnieżkę. 5. Królowa przebrana za staruszkę daje Śnieżce zatrute jabłko. 6. Śnieżka zapada w śpiączkę. 7. Książę budzi ją pocałunkiem. 8. Śnieżka i książę biorą ślub.'
+      },
+      {
+        title: 'Czego uczy ta baśń?',
+        text: 'Baśń uczy, że dobro zwycięża nad złem, a zazdrość i pycha prowadzą do zguby. Pokazuje też, że przyjaźń i pomoc innych są bardzo ważne.'
+      }
+    ]
+  },
+  {
+    id: 'calineczka',
+    icon: '🌸',
+    title: 'Calineczka',
+    author: 'Hans Christian Andersen',
+    sections: [
+      {
+        title: 'O czym jest ta baśń?',
+        text: 'Pewna kobieta bardzo chciała mieć dziecko. Posadziła magiczne ziarenko, z którego wyrosła śliczna dziewczynka wielkości kciuka - Calineczka. Pewnej nocy ropucha porywa Calineczkę, żeby została żoną jej syna. Calineczka ucieka i trafia do myszy polnej, która chce ją wydać za kreta. Calineczka ratuje zziębniętą jaskółkę, która w zamian zabiera ją do ciepłych krajów.'
+      },
+      {
+        title: 'Najważniejsze wydarzenia',
+        text: '1. Z kwiatka wyrasta Calineczka. 2. Ropucha porywa ją dla swojego syna. 3. Rybki pomagają Calineczce uciec. 4. Chrabąszcz porywa Calineczkę, ale ją porzuca. 5. Zapada zima, Calineczka znajduje schronienie u myszy polnej. 6. Mysz chce wydać Calineczkę za kreta. 7. Calineczka ratuje jaskółkę. 8. Jaskółka zabiera Calineczkę do krainy kwiatów.'
+      },
+      {
+        title: 'Czego uczy ta baśń?',
+        text: 'Baśń uczy, że dobroć zawsze wraca - Calineczka pomogła jaskółce, a ta odwdzięczyła się jej pomocą. Uczy też, że warto marzyć i dążyć do szczęścia.'
+      }
+    ]
+  },
+  {
+    id: 'mikolajek',
+    icon: '👦',
+    title: 'Mikołajek',
+    author: 'René Goscinny (ilustracje Jean-Jacques Sempé)',
+    sections: [
+      {
+        title: 'O czym jest ta książka?',
+        text: 'Seria opowiadań o małym chłopcu imieniem Mikołajek i jego przyjaciołach. Mikołajek chodzi do szkoły, bawi się z kolegami, a jego życie to ciąg przygód i zabawnych sytuacji. Ma najlepszego przyjaciela Alcesta, który zawsze je. Razem z nim i innymi chłopcami: Gotfrydem, Euzebiuszem, Kleofasem, Ananiaszem i Maksensem przeżywają wiele śmiesznych przygód.'
+      },
+      {
+        title: 'Przyjaciele Mikołajka',
+        text: '👦 Alcest - najlepszy przyjaciel, ciągle je, jest grubiutki. 👦 Gotfryd - ma bardzo bogatych rodziców, dostaje najdroższe prezenty. 👦 Euzebiusz - lubi się bić, jest najsilniejszy. 👦 Ananiasz - klasowy prymus, podlizuje się nauczycielowi. 👦 Kleofas - chodzi w okularach. 👦 Maksens - ciągle choruje i opuszcza lekcje.'
+      },
+      {
+        title: 'Zabawne sytuacje',
+        text: 'Mikołajek i jego koledzy ciągle wpadają w tarapaty. Organizują przedstawienie dla rodziców, które kończy się katastrofą. Grają w piłkę i wybijają szybę. Próbują uratować psa przed odławianiem bezpańskich zwierząt. Rozmawiają o dorastaniu i zakochują się w koleżankach. Każda historia kończy się śmiechem.'
+      },
+      {
+        title: 'Czego uczy ta książka?',
+        text: 'Książka uczy przyjaźni i pokazuje, że dzieciństwo to wspaniały czas. Opowiadania są pełne humoru i uczą, że najważniejsze w życiu są przyjaźń i rodzina.'
+      }
+    ]
+  },
+  {
+    id: 'doktor-dolittle',
+    icon: '🩺',
+    title: 'Doktor Dolittle',
+    author: 'Hugh Lofting',
+    sections: [
+      {
+        title: 'O czym jest ta książka?',
+        text: 'Doktor John Dolittle to weterynarz, który potrafi rozmawiać ze zwierzętami. Nauczył się ich języka dzięki swojej papudze Polinezji. Zwierzęta z całego świata przychodzą do niego po pomoc. Doktor Dolittle przeżywa niesamowite przygody: podróżuje do Afryki, żeby leczyć chore małpy, poznaje morskiego ślimaka i ratuje swoich przyjaciół.'
+      },
+      {
+        title: 'Przyjaciele doktora',
+        text: '🦜 Polinezja - papuga, która nauczyła doktora języka zwierząt. 🐷 Gapiszon - prosiaczek, pomocnik doktora. 🦆 Kaczka Dab-Dab - gospodyni doktora. 🐶 Jip - pies, który pomaga w diagnozowaniu. 🦉 Tu-Tu - sowa. 🐒 Czi-Czi - małpka. 🐊 Krokodyl - mieszka w ogrodzie doktora.'
+      },
+      {
+        title: 'Czego uczy ta książka?',
+        text: 'Książka uczy szacunku do zwierząt i przyrody. Pokazuje, że warto pomagać innym, nawet jeśli wymaga to poświęceń. Uczy też, że przyjaźń nie zna granic - ani językowych, ani gatunkowych.'
+      }
+    ]
+  }
+];
