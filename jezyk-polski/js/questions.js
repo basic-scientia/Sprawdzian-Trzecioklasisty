@@ -695,5 +695,29 @@ const LEKTURY = [
         text: 'Książka uczy szacunku do zwierząt i przyrody. Pokazuje, że warto pomagać innym, nawet jeśli wymaga to poświęceń. Uczy też, że przyjaźń nie zna granic - ani językowych, ani gatunkowych.'
       }
     ]
+  },
+  {
+    id: 'o-psie-ktory-jezdzi-koleja',
+    icon: '🐶',
+    title: 'O psie, który jeździł koleją',
+    author: 'Roman Pisarski',
+    sections: [
+      {
+        title: 'O czym jest ta książka?',
+        text: 'To wzruszająca historia o psie rasy owczarek niemiecki o imieniu Lampo. Pies należy do zawiadowcy stacji kolejowej w małej miejscowości Marittima we Włoszech. Lampo pewnego dnia uczy się wsiadać do pociągów i podróżować koleją. Zwiedza wiele miast i stacji, a potem zawsze wraca do swojego pana. Staje się sławny, a ludzie z całych Włoch czytają o nim w gazetach. Lampo pomaga też w różnych sytuacjach – znajduje zagubione przedmioty, ostrzega przed niebezpieczeństwem.'
+      },
+      {
+        title: 'Najważniejsze wydarzenia',
+        text: '1. Zawiadowca znajduje małego, rannego pieska i zabiera go do domu. 2. Pies dostaje imię Lampo (po włosku "błyskawica"). 3. Lampo uczy się wsiadać do pociągów i podróżować po całych Włoszech. 4. Lampo zawsze wraca do swojej stacji po kilku dniach. 5. Pies zdobywa sławę – piszą o nim gazety i telewizja. 6. Lampo ratuje małą dziewczynkę przed wpadnięciem pod pociąg. 7. Pies zostaje ranny na torach, ale wraca do zdrowia. 8. Lampo doczekuje się pomnika na swojej stacji.'
+      },
+      {
+        title: 'Bohaterowie',
+        text: '🐕 Lampo - wierny i mądry pies, który uwielbia podróże koleją. 👨‍✈️ Zawiadowca - pan Lampy, opiekuje się nim i martwi się, gdy pies znika. 👨‍👩‍👧 Rodzina pani zawiadowczyni - pomaga w opiece nad psem. 👧 Mała dziewczynka - uratowana przez Lampę spod kół pociągu. 🚂 Konduktorzy i kolejarze - poznają Lampę i pomagają mu podczas podróży.'
+      },
+      {
+        title: 'Czego uczy ta książka?',
+        text: 'Książka uczy wierności, przyjaźni i odwagi. Pokazuje, że zwierzęta potrafią być niezwykle mądre i oddane. Uczy też, że warto pomagać innym i że przyjaźń między człowiekiem a psem jest wyjątkowa. Historia Lampy udowadnia, że nawet zwykły pies może stać się bohaterem i zasłynąć w całym kraju.'
+      }
+    ]
   }
 ];
