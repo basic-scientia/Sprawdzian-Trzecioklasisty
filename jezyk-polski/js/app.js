@@ -60,20 +60,31 @@ function showLekturaDetail(id) {
 
   document.getElementById('lektura-detail-title').textContent = lektura.icon + ' ' + lektura.title;
 
-  const container = document.getElementById('lektura-detail-content');
-  container.innerHTML = `
+  let html = `
     <div class="ld-icon">${lektura.icon}</div>
     <div class="ld-title">${lektura.title}</div>
     <div class="ld-author">${lektura.author}</div>
     ${lektura.sections.map(s => `
       <div class="ld-section">
         <div class="ld-section-title">${s.title}</div>
-        <div class="ld-section-text">${s.text}</div>
+        <div class="ld-section-text">${s.text.replace(/\n/g, '<br>')}</div>
       </div>
     `).join('')}
   `;
 
+  if (lektura.quiz && lektura.quiz.length > 0) {
+    html += `<button class="btn btn-primary btn-large" onclick="startBookQuiz('${lektura.id}')" style="margin-top:12px">📝 Quiz o książce (${lektura.quiz.length} pytań)</button>`;
+  }
+
+  document.getElementById('lektura-detail-content').innerHTML = html;
   showScreen('screen-lektura-detail');
+}
+
+function startBookQuiz(id) {
+  const lektura = LEKTURY.find(l => l.id === id);
+  if (!lektura || !lektura.quiz) return;
+  const questions = [...lektura.quiz];
+  Quiz.startWithQuestions(questions, lektura.icon + ' ' + lektura.title);
 }
 
 function nextQuestion() {

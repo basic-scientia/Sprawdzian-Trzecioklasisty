@@ -38,6 +38,21 @@ const Quiz = {
     this.startTimer();
   },
 
+  startWithQuestions(questions, label) {
+    this.reset();
+    this.questions = questions;
+    this.currentIdx = 0;
+    this.score = 0;
+    this.answers = [];
+
+    document.getElementById('quiz-category-label').textContent = label || 'Quiz o książce';
+    document.getElementById('total-questions').textContent = this.questions.length;
+
+    showScreen('screen-quiz');
+    this.showQuestion();
+    this.startTimer();
+  },
+
   reset() {
     this.stopTimer();
     this.questions = [];

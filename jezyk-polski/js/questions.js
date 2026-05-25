@@ -703,20 +703,66 @@ const LEKTURY = [
     author: 'Roman Pisarski',
     sections: [
       {
-        title: 'O czym jest ta książka?',
-        text: 'To wzruszająca historia o psie rasy owczarek niemiecki o imieniu Lampo. Pies należy do zawiadowcy stacji kolejowej w małej miejscowości Marittima we Włoszech. Lampo pewnego dnia uczy się wsiadać do pociągów i podróżować koleją. Zwiedza wiele miast i stacji, a potem zawsze wraca do swojego pana. Staje się sławny, a ludzie z całych Włoch czytają o nim w gazetach. Lampo pomaga też w różnych sytuacjach – znajduje zagubione przedmioty, ostrzega przed niebezpieczeństwem.'
-      },
-      {
-        title: 'Najważniejsze wydarzenia',
-        text: '1. Zawiadowca znajduje małego, rannego pieska i zabiera go do domu. 2. Pies dostaje imię Lampo (po włosku "błyskawica"). 3. Lampo uczy się wsiadać do pociągów i podróżować po całych Włoszech. 4. Lampo zawsze wraca do swojej stacji po kilku dniach. 5. Pies zdobywa sławę – piszą o nim gazety i telewizja. 6. Lampo ratuje małą dziewczynkę przed wpadnięciem pod pociąg. 7. Pies zostaje ranny na torach, ale wraca do zdrowia. 8. Lampo doczekuje się pomnika na swojej stacji.'
+        title: 'Streszczenie',
+        text: 'Historia zaczyna się na małej włoskiej stacji kolejowej w Marittimie, gdzie pewnego dnia niespodziewanie pojawia się bezpański pies. Jest brudny, zmęczony i głodny, ale od razu wzbudza sympatię kolejarzy. Zawiadowca stacji, pan Leonardo, pozwala mu zostać na peronie, a pies szybko zyskuje imię Lampo.\n\n🐾 Lampo – niezwykły podróżnik\nWkrótce okazuje się, że Lampo nie jest zwykłym psem. Ma wyjątkową orientację i inteligencję — samodzielnie wsiada do pociągów, podróżuje różnymi trasami i zawsze wraca na swoją stację. Kolejarze z innych miejscowości zaczynają go rozpoznawać i traktować jak maskotkę kolei. Lampo zna rozkład jazdy lepiej niż niektórzy pracownicy. Czasem jedzie do miasta, czasem nad morze, a czasem tylko na krótką przejażdżkę. Zawsze jednak wraca do Marittimy.\n\n👨‍👩‍👧 Przyjaźń z rodziną zawiadowcy\nPies szczególnie zaprzyjaźnia się z córką zawiadowcy, Adelką, która jest chorowita i często nie może chodzić do szkoły. Lampo codziennie odprowadza ją do pociągu szkolnego i czeka na jej powrót. Dziewczynka bardzo go kocha, a pies odwzajemnia to uczucie.\n\n🚨 Pierwsze problemy\nNiestety, nie wszyscy są zachwyceni obecnością psa na kolei. Pojawiają się skargi od pasażerów i przełożonych, którzy uważają, że pies na peronie to zagrożenie. Zapada decyzja, aby Lampo został zabrany ze stacji. Zawiadowca z ciężkim sercem oddaje go znajomemu rolnikowi na wieś, daleko od torów. Jednak Lampo — mimo odległości i trudności — ucieka i po kilku dniach wraca do Marittimy, brudny, zmęczony, ale szczęśliwy.\n\n🚂 Druga próba usunięcia psa\nPo powrocie Lampo staje się jeszcze bardziej znany, ale też bardziej niewygodny dla władz kolei. Zapada surowsza decyzja: pies ma zostać wysłany bardzo daleko, tak aby nie mógł wrócić. Lampo zostaje przewieziony na drugi koniec Włoch, do Kalabrii. To setki kilometrów od Marittimy. Wszyscy są przekonani, że tym razem nie wróci. A jednak — po wielu dniach, wychudzony i wyczerpany, Lampo ponownie odnajduje drogę do swojej stacji. Jego powrót wzrusza mieszkańców i kolejarzy, a nawet przełożeni zaczynają patrzeć na niego łagodniej.\n\n💔 Tragiczny finał\nPewnego dnia Adelka jedzie do szkoły, a Lampo jak zwykle ją odprowadza. Kiedy dziewczynka wraca, pies zauważa, że nadjeżdża pociąg towarowy, który nie zatrzymuje się na stacji. W tym samym momencie Adelka potyka się i upada blisko torów. Lampo rzuca się, by ją ochronić. Udaje mu się odepchnąć dziewczynkę w bezpieczne miejsce, ale sam nie zdąża uciec. Ginie pod kołami pociągu, ratując życie swojej przyjaciółki.\n\n🌼 Pamięć o Lampo\nCała stacja pogrąża się w żałobie. Kolejarze i mieszkańcy stawiają psu pomnik, a jego historia staje się legendą. Lampo zostaje zapamiętany jako bohater, wierny przyjaciel i niezwykły podróżnik, który kochał ludzi bardziej niż własne bezpieczeństwo.'
       },
       {
         title: 'Bohaterowie',
-        text: '🐕 Lampo - wierny i mądry pies, który uwielbia podróże koleją. 👨‍✈️ Zawiadowca - pan Lampy, opiekuje się nim i martwi się, gdy pies znika. 👨‍👩‍👧 Rodzina pani zawiadowczyni - pomaga w opiece nad psem. 👧 Mała dziewczynka - uratowana przez Lampę spod kół pociągu. 🚂 Konduktorzy i kolejarze - poznają Lampę i pomagają mu podczas podróży.'
+        text: '🐕 Lampo - wierny i mądry pies, który uwielbia podróże koleją. 👨‍✈️ Zawiadowca - pan Lampy, opiekuje się nim i martwi się, gdy pies znika. 👧 Adelka - córka zawiadowcy, przyjaciółka Lampy. 🚂 Kolejarze - pomagają Lampie podczas podróży.'
       },
       {
         title: 'Czego uczy ta książka?',
         text: 'Książka uczy wierności, przyjaźni i odwagi. Pokazuje, że zwierzęta potrafią być niezwykle mądre i oddane. Uczy też, że warto pomagać innym i że przyjaźń między człowiekiem a psem jest wyjątkowa. Historia Lampy udowadnia, że nawet zwykły pies może stać się bohaterem i zasłynąć w całym kraju.'
+      }
+    ],
+    quiz: [
+      {
+        question: 'Jak nazywał się pies – główny bohater książki?',
+        answers: ['Burek', 'Lampo', 'Rex', 'Szarik'],
+        correct: 1,
+        explanation: 'Pies miał na imię Lampo. Po włosku "lampo" oznacza "błyskawica" – tak nazwał go zawiadowca.'
+      },
+      {
+        question: 'Gdzie rozgrywa się akcja książki?',
+        answers: ['W Polsce', 'We Włoszech', 'We Francji', 'W Hiszpanii'],
+        correct: 1,
+        explanation: 'Akcja rozgrywa się we Włoszech, na stacji kolejowej w miejscowości Marittima.'
+      },
+      {
+        question: 'Kto znalazł psa na stacji?',
+        answers: ['Konduktor', 'Zawiadowca stacji', 'Maszynista', 'Pasażer'],
+        correct: 1,
+        explanation: 'Psa znalazł zawiadowca stacji. To on przygarnął go i nadał mu imię Lampo.'
+      },
+      {
+        question: 'Jak miała na imię córka zawiadowcy?',
+        answers: ['Adelka', 'Zosia', 'Kasia', 'Marta'],
+        correct: 0,
+        explanation: 'Córka zawiadowcy miała na imię Adelka. Była chorowita i często opuszczała szkołę.'
+      },
+      {
+        question: 'Czym szczególnym wyróżniał się Lampo?',
+        answers: ['Umiał mówić', 'Jeździł pociągami', 'Pływał w morzu', 'Latał'],
+        correct: 1,
+        explanation: 'Lampo samodzielnie wsiadał do pociągów i podróżował po całych Włoszech, zawsze wracając na swoją stację.'
+      },
+      {
+        question: 'Dlaczego zawiadowca oddał psa rolnikowi?',
+        answers: ['Bo pies był chory', 'Bo dostał skargi i nakaz usunięcia psa', 'Bo pies go ugryzł', 'Bo wyjeżdżał'],
+        correct: 1,
+        explanation: 'Zawiadowca otrzymał skargi i nakaz usunięcia psa ze stacji. Z ciężkim sercem oddał go rolnikowi na wieś.'
+      },
+      {
+        question: 'Jak zginął Lampo?',
+        answers: ['Potrącił go samochód', 'Uratował Adelkę spod pociągu i sam zginął', 'Zachorował', 'Zestarzał się'],
+        correct: 1,
+        explanation: 'Lampo rzucił się, by odepchnąć Adelkę z torów nadjeżdżającego pociągu. Uratował ją, sam ginąc pod kołami.'
+      },
+      {
+        question: 'Co stało się po śmierci Lampy?',
+        answers: ['Zapomniano o nim', 'Postawiono mu pomnik na stacji', 'Zamknięto stację', 'Wysłano list do króla'],
+        correct: 1,
+        explanation: 'Kolejarze i mieszkańcy postawili psu pomnik, a jego historia stała się legendą.'
       }
     ]
   }
